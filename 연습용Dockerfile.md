@@ -50,9 +50,18 @@ volumes:
 참고할 블로그
 https://unpasoadelante.tistory.com/197
 https://ttl-blog.tistory.com/761
+
+RUN CMD ENTRYPOINT
 https://blog.leocat.kr/notes/2017/01/08/docker-run-vs-cmd-vs-entrypoint
+
+nginx spring boot mysql
 https://joont92.github.io/docker/docker-compose%EB%A1%9C-nginx-spring-boot-mysql-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/
+
+SSL
 https://zinirun.github.io/2021/03/31/docker-nginx-certbot/
 https://jinsiri.tistory.com/605
 https://velog.io/@zero-black/Docker-compose-certbot-nginx-%EB%A1%9C-SSL-%EC%9D%B8%EC%A6%9D%EC%84%9C-%EB%B0%9C%EA%B8%89%ED%95%98%EA%B8%B0
+
+무한재시작 해결
+https://www.clien.net/service/board/cm_linux/16614245
 ```

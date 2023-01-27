@@ -1,4 +1,4 @@
-# Docker Basic Command
+# Docker CLI Basic Command
 ```
 $ docker pull [OPTIONS] NAME[:TAG|@DIGEST]
     docker hub로부터 이미지를 받아올 수 있다
@@ -110,3 +110,17 @@ $ docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
 $ docker inspect [OPTIONS] NAME|ID [NAME|ID...]
     컨테이너 세부정보
 ```
+# Docker compose command
+```
+$ docker-compose up
+    docker compose 실행명령(-d옵션을 줄 시 백그라운드로 실행)
+```
+```
+$ docker-compose stop
+    docker compose로 실행시킨 container를 중지시키는 명령
+```
+```
+$ docker-compose down
+    docker compose up 한 container를 삭제시킴
+```
+
