@@ -10,10 +10,4 @@ program == image
 proces == container
 docker hub -> image 다운로드 == pull
 image 실행 == run (image->container)
-
-Docker Container와 Docker Host 연결 예시
-$ docker run -p 80:80 nginx
-    앞 80은 host port
-    뒤 80은 container port
-    = port forwarding
 ```
