@@ -1,13 +1,13 @@
 version: "3.8"
 services:
   app:
-    container_name: app_con
+    container_name: app_con # custom name
     platform: linux/amd64
-    build:
+    build: # Dockfile context
       context: ./app/conf
-    volumes:
+    volumes: # 볼륨 설정
       - ./app/volume:/app/volume
-    ports:
+    ports: # 포트포워딩
       - "80:8080"
     restart: always
     command: tail -f /dev/null 

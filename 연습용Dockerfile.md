@@ -49,7 +49,7 @@ volumes:
 
 참고할 블로그
 https://unpasoadelante.tistory.com/197
-https://ttl-blog.tistory.com/761
+https://ttl-blog.istory.com/761
 
 RUN CMD ENTRYPOINT
 https://blog.leocat.kr/notes/2017/01/08/docker-run-vs-cmd-vs-entrypoint
