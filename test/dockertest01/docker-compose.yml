@@ -1,16 +1,10 @@
-version: "3.8"
+version: "3" 
 services:
   app:
-    container_name: app_con # custom name
-    platform: linux/amd64
-    build: # Dockfile context
-      context: ./app/conf
-    volumes: # 볼륨 설정
+    container_name: app_con
+    build: ./app/conf
+    volumes:
       - ./app/volume:/app/volume
-    ports: # 포트포워딩
+    ports:
       - "80:8080"
     restart: always
-    command: tail -f /dev/null 
-    # Dockerfile에 exec or entrypoint에 지정된 명령을 수행하고 해당 명령이 끝나면 컨테이너도 종료됨
-    # 하지만 command를 안적으면 무한 재시작되는듯 ?
-    # 현재 이 테스트에서는 exec or entrypoint가 존재하지 않음
