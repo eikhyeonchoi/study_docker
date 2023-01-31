@@ -8,8 +8,8 @@ services:
     ports:
       - "80:8080"
     restart: always
-    networks:
-      - custom_net
+    # networks:
+    #   - custom_net
     depends_on:
       - db
   db: 
@@ -22,8 +22,8 @@ services:
     ports:
       - "3306:3306"
     restart: always
-    networks:
-      - custom_net
+    # networks:
+    #   - custom_net
     
-networks:
-  custom_net:
+# networks:
+#   custom_net:
