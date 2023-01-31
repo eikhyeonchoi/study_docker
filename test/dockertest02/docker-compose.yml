@@ -11,7 +11,7 @@ services:
     networks:
       - custom_net
     depends_on:
-      - db_con
+      - db
   db: 
     container_name: db_con
     image: mysql:8.0
