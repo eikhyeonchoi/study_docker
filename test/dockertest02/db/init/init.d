@@ -1,6 +1,9 @@
 CREATE USER 'dbuser'@'localhost' IDENTIFIED BY 'dbuser';
 CREATE USER 'dbuser'@'%' IDENTIFIED BY 'dbuser';
 
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
+
 GRANT ALL PRIVILEGES ON *.* TO 'dbuser'@'localhost';
 GRANT ALL PRIVILEGES ON *.* TO 'dbuser'@'%';
 

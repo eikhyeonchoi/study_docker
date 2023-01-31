@@ -14,7 +14,7 @@ services:
       - db
   db: 
     container_name: db_con
-    build: ./app/conf
+    build: ./db/conf
     environment:
       MYSQL_DATA_BASE: testdb
       MYSQL_ROOT_PASSWORD: 2023dbcon
