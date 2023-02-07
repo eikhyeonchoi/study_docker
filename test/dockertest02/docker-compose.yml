@@ -18,8 +18,8 @@ services:
     container_name: db_con
     build: ./db/conf
     environment:
-      MYSQL_DATA_BASE: testdb
-      MYSQL_ROOT_PASSWORD: 2023dbcon
+      MYSQL_DATA_BASE: foobar
+      MYSQL_ROOT_PASSWORD: foobar
       TZ: Asia/Seoul
     ports:
       - "3306:3306"
