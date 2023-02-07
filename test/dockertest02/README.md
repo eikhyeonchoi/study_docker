@@ -24,4 +24,8 @@ Task 3.
 
 task1은 db container에 /docker-entrypoint-initdb.d 여기에 sql 파일을 넣으면 해결되었음
 task2는 vmware 및 네트워크의 대한 지식인데 NAT사용시 VMnet8을 사용함 -> vm에서 VMnet8과 네트워크 대역이 일치하는 아이피 찾아서 SSH터널로 연결해주면 끝
+db연결은 docker compose -> depends on + link 2개 선언하니 완료
+depends on -> 컨테이너 시작 시 의존성 설정
+link -> 네트워크 직접연결
+
 ``` 

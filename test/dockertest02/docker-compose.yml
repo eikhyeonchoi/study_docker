@@ -10,8 +10,8 @@ services:
     restart: always
     # networks:
     #   - custom_net
-    links:
-      - db
+    # links:
+    #  - db
     depends_on:
       - db
   db: 
