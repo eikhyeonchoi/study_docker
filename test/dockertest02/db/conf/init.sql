@@ -1,11 +1,11 @@
-CREATE USER 'dbuser'@'localhost' IDENTIFIED BY 'dbuser';
-CREATE USER 'dbuser'@'%' IDENTIFIED BY 'dbuser';
+CREATE USER 'foobar'@'localhost' IDENTIFIED BY 'foobar';
+CREATE USER 'foobar'@'%' IDENTIFIED BY 'foobar';
 
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
 
-GRANT ALL PRIVILEGES ON *.* TO 'dbuser'@'localhost';
-GRANT ALL PRIVILEGES ON *.* TO 'dbuser'@'%';
+GRANT ALL PRIVILEGES ON *.* TO 'foobar'@'localhost';
+GRANT ALL PRIVILEGES ON *.* TO 'foobar'@'%';
 
 CREATE DATABASE IF NOT EXISTS foobar;
 use foobar;
