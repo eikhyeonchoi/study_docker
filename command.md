@@ -1,5 +1,10 @@
 # Docker CLI Basic Command
 ```
+여러번 테스트할 경우 docker cache가 남는데 이 cache 지우는 명령
+$ docker builder prune
+```
+
+```
 $ docker pull [OPTIONS] NAME[:TAG|@DIGEST]
     docker hub로부터 이미지를 받아올 수 있다
 ```
